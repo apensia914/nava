@@ -634,6 +634,59 @@ button {
     }
 }
 
+/* Subsection Mobile */
+@media screen and (max-width: 768px) {
+    .sub {
+        max-width: 100%;
+        text-align: center;
+        text-transform: uppercase;
+        background-image: url('../images/background2@2x.png');
+        color: #fff;
+        
+        .wrapper {
+            height: 50vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            h1 {
+                font-family: 'Raleway', sans-serif;
+                letter-spacing: 5.8px;
+                font-size: 1.8rem;
+                padding-bottom: 8px;
+            }
+
+            h2 {
+                font-family: 'Open Sans', sans-serif;
+                font-weight: 300;
+                line-height: 22px;
+                letter-spacing: 1.2px;
+                font-size: .8rem;
+            }
+        }
+        .submitBtn {
+            margin-top: 45px;
+
+            button {
+                background-color: $base-color;
+                color: #fff;
+                text-transform: uppercase;
+                line-height: 22px;
+                letter-spacing: .56px;
+                font-size: .75rem;
+                width: 270px;
+                height: 45px;
+                border-radius: 5px;
+            }
+        }
+    }
+}
+
+/* Subsection (Tablet) */
+@media screen and (min-wdith: 768px) and (max-width: 1024px) {
+    
+}
 
 /* Animation */
 @keyframes move_up {
