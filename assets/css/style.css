@@ -717,10 +717,19 @@ button {
     width: 270px;
     height: 45px;
     border-radius: 5px;
+    cursor: pointer;
   }
 }
 
 /* Subsection (Tablet) */
+@media screen and (min-wdith: 768px) and (max-width: 1024px) {
+  .sub {
+    max-width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+  }
+}
+
 /* Animation */
 @-webkit-keyframes move_up {
   0% {
