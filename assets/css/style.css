@@ -835,6 +835,392 @@ button {
   }
 }
 
+/* Boat Section (Mobile) */
+@media screen and (max-width: 768px) {
+  .boat {
+    max-width: 100%;
+  }
+  .boat .wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 12% 13%;
+  }
+  .boat .wrapper .section-title {
+    text-align: center;
+  }
+  .boat .wrapper .section-title h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.9rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    padding-bottom: 15px;
+  }
+  .boat .wrapper .section-title h2 {
+    font-family: 'Open Sans', sans-serif;
+    color: #717171;
+    font-size: 1.3rem;
+    font-weight: 300;
+    padding-top: 5px;
+  }
+  .boat .wrapper .section-grid {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (minmax(450px, 1200px))[1];
+        grid-template-columns: repeat(1, minmax(450px, 1200px));
+    grid-auto-rows: minmax(350px, auto);
+    margin-top: 55px;
+    gap: 20px;
+  }
+  .boat .wrapper .section-grid .boat-item {
+    background-size: 100% 100%;
+    background-position: center;
+    border-radius: 5px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    position: relative;
+    color: #fff;
+  }
+  .boat .wrapper .section-grid .boat-item:hover {
+    -webkit-animation: move_up .2s ease-out forwards;
+            animation: move_up .2s ease-out forwards;
+  }
+  .boat .wrapper .section-grid .boat-item .boat-follower {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-self: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    background-color: #e7434e;
+    width: 70px;
+    height: 40px;
+    border-radius: 5px;
+    font-size: .7rem;
+    position: absolute;
+    left: 15px;
+  }
+  .boat .wrapper .section-grid .boat-item h1 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    position: absolute;
+    left: 15px;
+    top: 70%;
+    font-size: 2rem;
+  }
+  .boat .wrapper .section-grid .boat-item h2 {
+    position: absolute;
+    left: 15px;
+    top: 83%;
+    font-size: 1rem;
+  }
+  .boat .wrapper .section-grid #boat-1 {
+    background-image: url("../images/boat@2x.png");
+  }
+  .boat .wrapper .section-grid #boat-2 {
+    background-image: url("../images/boat@2x.png");
+  }
+  .boat .wrapper .section-grid #boat-3 {
+    background-image: url("../images/boat@2x.png");
+  }
+  .boat .wrapper .section-grid #boat-4 {
+    background-image: url("../images/boat@2x.png");
+  }
+  .boat .wrapper .expand {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .boat .wrapper .expand .expand-btn {
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
+    color: #717171;
+    border: 1px solid #717171;
+    border-radius: 5px;
+    background-color: transparent;
+    width: 300px;
+    height: 50px;
+    font-size: .8rem;
+    margin-top: 70px;
+  }
+}
+
+/* Boat Section (Tablet) */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .boat {
+    max-width: 100%;
+  }
+  .boat .wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 12% 13%;
+  }
+  .boat .wrapper .section-title {
+    text-align: center;
+  }
+  .boat .wrapper .section-title h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 2.2rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    padding-bottom: 15px;
+  }
+  .boat .wrapper .section-title h2 {
+    font-family: 'Open Sans', sans-serif;
+    color: #717171;
+    font-size: 1.7rem;
+    font-weight: 300;
+    padding-top: 5px;
+  }
+  .boat .wrapper .section-grid {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (minmax(450px, 1200px))[1];
+        grid-template-columns: repeat(1, minmax(450px, 1200px));
+    grid-auto-rows: minmax(350px, auto);
+    margin-top: 55px;
+    gap: 20px;
+  }
+  .boat .wrapper .section-grid .boat-item {
+    background-size: 100% 100%;
+    background-position: center;
+    border-radius: 5px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    position: relative;
+    color: #fff;
+  }
+  .boat .wrapper .section-grid .boat-item:hover {
+    -webkit-animation: move_up .2s ease-out forwards;
+            animation: move_up .2s ease-out forwards;
+  }
+  .boat .wrapper .section-grid .boat-item .boat-follower {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-self: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    background-color: #e7434e;
+    width: 70px;
+    height: 40px;
+    border-radius: 5px;
+    font-size: .7rem;
+    position: absolute;
+    left: 15px;
+  }
+  .boat .wrapper .section-grid .boat-item h1 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    position: absolute;
+    left: 15px;
+    top: 70%;
+    font-size: 2rem;
+  }
+  .boat .wrapper .section-grid .boat-item h2 {
+    position: absolute;
+    left: 15px;
+    top: 83%;
+    font-size: 1rem;
+  }
+  .boat .wrapper .section-grid #boat-1 {
+    background-image: url("../images/boat@2x.png");
+  }
+  .boat .wrapper .section-grid #boat-2 {
+    background-image: url("../images/boat@2x.png");
+  }
+  .boat .wrapper .section-grid #boat-3 {
+    background-image: url("../images/boat@2x.png");
+  }
+  .boat .wrapper .section-grid #boat-4 {
+    background-image: url("../images/boat@2x.png");
+  }
+  .boat .wrapper .expand {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .boat .wrapper .expand .expand-btn {
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
+    color: #717171;
+    border: 1px solid #717171;
+    border-radius: 5px;
+    background-color: transparent;
+    width: 300px;
+    height: 50px;
+    font-size: .8rem;
+    margin-top: 70px;
+  }
+}
+
+/* Boat Section (Desktop) */
+@media screen and (min-width: 1024px) {
+  .boat {
+    max-width: 100%;
+  }
+  .boat .wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 12% 13%;
+  }
+  .boat .wrapper .section-title {
+    text-align: center;
+  }
+  .boat .wrapper .section-title h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.9rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    padding-bottom: 15px;
+  }
+  .boat .wrapper .section-title h2 {
+    font-family: 'Open Sans', sans-serif;
+    color: #717171;
+    font-size: 1.3rem;
+    font-weight: 300;
+    padding-top: 5px;
+  }
+  .boat .wrapper .section-grid {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (minmax(450px, 1200px))[2];
+        grid-template-columns: repeat(2, minmax(450px, 1200px));
+    grid-auto-rows: minmax(350px, auto);
+    margin-top: 55px;
+    gap: 20px;
+  }
+  .boat .wrapper .section-grid .boat-item {
+    background-size: 100% 100%;
+    background-position: center;
+    border-radius: 5px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    position: relative;
+    color: #fff;
+  }
+  .boat .wrapper .section-grid .boat-item:hover {
+    -webkit-animation: move_up .2s ease-out forwards;
+            animation: move_up .2s ease-out forwards;
+  }
+  .boat .wrapper .section-grid .boat-item .boat-follower {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-self: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background-color: #e7434e;
+    width: 70px;
+    height: 40px;
+    border-radius: 5px;
+    font-size: .9rem;
+    position: absolute;
+    left: 15px;
+  }
+  .boat .wrapper .section-grid .boat-item h1 {
+    position: absolute;
+    left: 15px;
+    top: 70%;
+    font-size: 2rem;
+  }
+  .boat .wrapper .section-grid .boat-item h2 {
+    position: absolute;
+    left: 15px;
+    top: 83%;
+    font-size: 1.5rem;
+  }
+  .boat .wrapper .section-grid #boat-1 {
+    background-image: url("../images/boat@2x.png");
+  }
+  .boat .wrapper .section-grid #boat-2 {
+    background-image: url("../images/boat@2x.png");
+  }
+  .boat .wrapper .section-grid #boat-3 {
+    background-image: url("../images/boat@2x.png");
+  }
+  .boat .wrapper .section-grid #boat-4 {
+    background-image: url("../images/boat@2x.png");
+  }
+  .boat .wrapper .section-grid #boat-5 {
+    background-image: url("../images/boat@2x.png");
+  }
+  .boat .wrapper .expand {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .boat .wrapper .expand .expand-btn {
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
+    color: #717171;
+    border: 1px solid #717171;
+    border-radius: 5px;
+    background-color: transparent;
+    width: 300px;
+    height: 50px;
+    font-size: .8rem;
+    margin-top: 70px;
+  }
+}
+
 /* Animation */
 @-webkit-keyframes move_up {
   0% {

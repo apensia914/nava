@@ -785,6 +785,383 @@ button {
     }
 }
 
+/* Boat Section (Mobile) */
+@media screen and (max-width: 768px) {
+    .boat {
+        max-width: 100%;
+
+        .wrapper {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin: 12% 13%;
+
+            .section-title {
+                text-align: center;
+
+                h1 {
+                    font-family: 'Raleway', sans-serif;
+                    font-size: 1.9rem;
+                    font-weight: 300;
+                    text-transform: uppercase;
+                    padding-bottom: 15px;
+                }
+
+                h2 {
+                    font-family: 'Open Sans', sans-serif;
+                    color: $p-color;
+                    font-size: 1.3rem;
+                    font-weight: 300;
+                    padding-top: 5px;
+                }
+            }
+
+            .section-grid {
+                display: grid;
+                grid-template-columns: repeat(1, minmax(450px, 1200px));
+                grid-auto-rows: minmax(350px, auto);
+                margin-top: 55px;
+                gap: 20px;
+                
+                .boat-item {
+                    background-size: 100% 100%;
+                    background-position: center;
+                    border-radius: 5px;
+                    font-family: 'Raleway', sans-serif;
+                    font-weight: 300;
+                    padding-bottom: 15px;
+                    padding-top: 15px;
+                    position: relative;
+                    color: #fff;
+                    
+                    &:hover {
+                        animation: move_up .2s ease-out forwards;
+                    }
+
+                    .boat-follower {
+                        display: flex;
+                        justify-self: center;
+                        align-items: center;
+                        font-family: 'Open Sans', sans-serif;
+                        font-weight: 700;
+                        background-color: $base-color;
+                        width: 70px;
+                        height: 40px;
+                        border-radius: 5px;
+                        font-size: .7rem;
+                        position: absolute;
+                        left: 15px;
+                    }   
+
+                    h1 {
+                        font-family: 'Raleway', sans-serif;
+                        font-weight: 300;
+                        position: absolute;
+                        left: 15px;
+                        top: 70%;
+                        font-size: 2rem;
+                    }
+
+                    h2 {
+                        position: absolute;
+                        left: 15px;
+                        top: 83%;
+                        font-size: 1rem;
+                    }
+                }
+
+                #boat-1 {
+                    background-image: url('../images/boat@2x.png');
+                }
+
+                #boat-2 {
+                    background-image: url('../images/boat@2x.png');
+                }
+    
+                #boat-3 {
+                    background-image: url('../images/boat@2x.png');
+                }
+    
+                #boat-4 {
+                    background-image: url('../images/boat@2x.png');
+                }
+            }
+
+            .expand {
+                display: flex;
+                justify-content: center;
+                
+                .expand-btn {
+                    text-align: center;
+                    text-transform: uppercase;
+                    cursor: pointer;
+                    color: $p-color;
+                    border: 1px solid $p-color;
+                    border-radius: 5px;
+                    background-color: transparent;
+                    width: 300px;
+                    height: 50px;
+                    font-size: .8rem;
+                    margin-top: 70px;
+                }
+            }
+        }
+    }
+}
+
+/* Boat Section (Tablet) */
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .boat {
+        max-width: 100%;
+
+        .wrapper {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin: 12% 13%;
+
+            .section-title {
+                text-align: center;
+
+                h1 {
+                    font-family: 'Raleway', sans-serif;
+                    font-size: 2.2rem;
+                    font-weight: 300;
+                    text-transform: uppercase;
+                    padding-bottom: 15px;
+                }
+
+                h2 {
+                    font-family: 'Open Sans', sans-serif;
+                    color: $p-color;
+                    font-size: 1.7rem;
+                    font-weight: 300;
+                    padding-top: 5px;
+                }
+            }
+
+            .section-grid {
+                display: grid;
+                grid-template-columns: repeat(1, minmax(450px, 1200px));
+                grid-auto-rows: minmax(350px, auto);
+                margin-top: 55px;
+                gap: 20px;
+                
+                .boat-item {
+                    background-size: 100% 100%;
+                    background-position: center;
+                    border-radius: 5px;
+                    font-family: 'Raleway', sans-serif;
+                    font-weight: 300;
+                    padding-bottom: 15px;
+                    padding-top: 15px;
+                    position: relative;
+                    color: #fff;
+                    
+                    &:hover {
+                        animation: move_up .2s ease-out forwards;
+                    }
+
+                    .boat-follower {
+                        display: flex;
+                        justify-self: center;
+                        align-items: center;
+                        font-family: 'Open Sans', sans-serif;
+                        font-weight: 700;
+                        background-color: $base-color;
+                        width: 70px;
+                        height: 40px;
+                        border-radius: 5px;
+                        font-size: .7rem;
+                        position: absolute;
+                        left: 15px;
+                    }   
+
+                    h1 {
+                        font-family: 'Raleway', sans-serif;
+                        font-weight: 300;
+                        position: absolute;
+                        left: 15px;
+                        top: 70%;
+                        font-size: 2rem;
+                    }
+
+                    h2 {
+                        position: absolute;
+                        left: 15px;
+                        top: 83%;
+                        font-size: 1rem;
+                    }
+                }
+
+                #boat-1 {
+                    background-image: url('../images/boat@2x.png');
+                }
+
+                #boat-2 {
+                    background-image: url('../images/boat@2x.png');
+                }
+    
+                #boat-3 {
+                    background-image: url('../images/boat@2x.png');
+                }
+    
+                #boat-4 {
+                    background-image: url('../images/boat@2x.png');
+                }
+            }
+
+            .expand {
+                display: flex;
+                justify-content: center;
+                
+                .expand-btn {
+                    text-align: center;
+                    text-transform: uppercase;
+                    cursor: pointer;
+                    color: $p-color;
+                    border: 1px solid $p-color;
+                    border-radius: 5px;
+                    background-color: transparent;
+                    width: 300px;
+                    height: 50px;
+                    font-size: .8rem;
+                    margin-top: 70px;
+                }
+            }
+        }
+    }
+}
+
+/* Boat Section (Desktop) */
+
+@media screen and (min-width: 1024px) {
+    .boat {
+        max-width: 100%;
+
+        .wrapper {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin: 12% 13%;
+
+            .section-title {
+                text-align: center;
+
+                h1 {
+                    font-family: 'Raleway', sans-serif;
+                    font-size: 1.9rem;
+                    font-weight: 300;
+                    text-transform: uppercase;
+                    padding-bottom: 15px;
+                }
+
+                h2 {
+                    font-family: 'Open Sans', sans-serif;
+                    color: $p-color;
+                    font-size: 1.3rem;
+                    font-weight: 300;
+                    padding-top: 5px;
+                }
+            }
+
+            .section-grid {
+                display: grid;
+                grid-template-columns: repeat(2, minmax(450px, 1200px));
+                grid-auto-rows: minmax(350px, auto);
+                margin-top: 55px;
+                gap: 20px;
+                
+                .boat-item {
+                    background-size: 100% 100%;
+                    background-position: center;
+                    border-radius: 5px;
+                    font-family: 'Raleway', sans-serif;
+                    font-weight: 300;
+                    padding-bottom: 15px;
+                    padding-top: 15px;
+                    position: relative;
+                    color: #fff;
+                    
+                    &:hover {
+                        animation: move_up .2s ease-out forwards;
+                    }
+
+                    .boat-follower {
+                        display: flex;
+                        justify-self: center;
+                        align-items: center;
+                        background-color: $base-color;
+                        width: 70px;
+                        height: 40px;
+                        border-radius: 5px;
+                        font-size: .9rem;
+                        position: absolute;
+                        left: 15px;
+                    }   
+
+                    h1 {
+                        position: absolute;
+                        left: 15px;
+                        top: 70%;
+                        font-size: 2rem;
+                    }
+
+                    h2 {
+                        position: absolute;
+                        left: 15px;
+                        top: 83%;
+                        font-size: 1.5rem;
+                    }
+                }
+
+                #boat-1 {
+                    background-image: url('../images/boat@2x.png');
+                }
+
+                #boat-2 {
+                    background-image: url('../images/boat@2x.png');
+                }
+    
+                #boat-3 {
+                    background-image: url('../images/boat@2x.png');
+                }
+    
+                #boat-4 {
+                    background-image: url('../images/boat@2x.png');
+                }
+    
+                #boat-5 {
+                    background-image: url('../images/boat@2x.png');
+                }
+            }
+
+            .expand {
+                display: flex;
+                justify-content: center;
+                
+                .expand-btn {
+                    text-align: center;
+                    text-transform: uppercase;
+                    cursor: pointer;
+                    color: $p-color;
+                    border: 1px solid $p-color;
+                    border-radius: 5px;
+                    background-color: transparent;
+                    width: 300px;
+                    height: 50px;
+                    font-size: .8rem;
+                    margin-top: 70px;
+                }
+            }
+        }
+    }
+}
+
 /* Animation */
 @keyframes move_up {
     0% {
