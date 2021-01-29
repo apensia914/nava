@@ -266,15 +266,19 @@ button {
   }
   .hero .wrapper .search-bar input::-webkit-input-placeholder {
     padding-left: 10px;
+    text-transform: uppercase;
   }
   .hero .wrapper .search-bar input:-ms-input-placeholder {
     padding-left: 10px;
+    text-transform: uppercase;
   }
   .hero .wrapper .search-bar input::-ms-input-placeholder {
     padding-left: 10px;
+    text-transform: uppercase;
   }
   .hero .wrapper .search-bar input::placeholder {
     padding-left: 10px;
+    text-transform: uppercase;
   }
   .hero .wrapper .search-bar button {
     height: 40px;
@@ -722,11 +726,112 @@ button {
 }
 
 /* Subsection (Tablet) */
-@media screen and (min-wdith: 768px) and (max-width: 1024px) {
+@media screen and (min-width: 768px) and (max-width: 1024px) {
   .sub {
     max-width: 100%;
     text-align: center;
     text-transform: uppercase;
+    background-image: url("../images/background2@2x.png");
+    color: #fff;
+  }
+  .sub .wrapper {
+    height: 50vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .sub .wrapper h1 {
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 5.8px;
+    font-size: 2.3rem;
+    padding-bottom: 8px;
+  }
+  .sub .wrapper h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    line-height: 22px;
+    letter-spacing: 1.8px;
+    font-size: .8rem;
+  }
+  .sub .submitBtn {
+    margin-top: 45px;
+  }
+  .sub .submitBtn button {
+    background-color: #e7434e;
+    color: #fff;
+    text-transform: uppercase;
+    line-height: 22px;
+    letter-spacing: .56px;
+    font-size: .9rem;
+    width: 320px;
+    height: 50px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+}
+
+/* Subsection (Desktop) */
+@media screen and (min-width: 1024px) {
+  .sub {
+    max-width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    background-image: url("../images/background2@2x.png");
+    color: #fff;
+  }
+  .sub .wrapper {
+    height: 50vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .sub .wrapper h1 {
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 5.8px;
+    font-size: 3rem;
+    padding-bottom: 8px;
+  }
+  .sub .wrapper h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    line-height: 22px;
+    letter-spacing: 1.2px;
+    font-size: 1.3rem;
+  }
+  .sub .submitBtn {
+    margin-top: 45px;
+  }
+  .sub .submitBtn button {
+    background-color: #e7434e;
+    color: #fff;
+    text-transform: uppercase;
+    line-height: 22px;
+    letter-spacing: .56px;
+    font-size: 1rem;
+    width: 370px;
+    height: 55px;
+    border-radius: 5px;
+    cursor: pointer;
   }
 }
 

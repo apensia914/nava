@@ -246,6 +246,7 @@ button {
 
                     &::placeholder {
                         padding-left: 10px;
+                        text-transform: uppercase;
                     }
                 }
 
@@ -685,11 +686,102 @@ button {
 }
 
 /* Subsection (Tablet) */
-@media screen and (min-wdith: 768px) and (max-width: 1024px) {
+@media screen and (min-width: 768px) and (max-width: 1024px) {
     .sub {
         max-width: 100%;
         text-align: center;
         text-transform: uppercase;
+        background-image: url('../images/background2@2x.png');
+        color: #fff;
+        
+        .wrapper {
+            height: 50vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            h1 {
+                font-family: 'Raleway', sans-serif;
+                letter-spacing: 5.8px;
+                font-size: 2.3rem;
+                padding-bottom: 8px;
+            }
+
+            h2 {
+                font-family: 'Open Sans', sans-serif;
+                font-weight: 300;
+                line-height: 22px;
+                letter-spacing: 1.8px;
+                font-size: .8rem;
+            }
+        }
+        .submitBtn {
+            margin-top: 45px;
+
+            button {
+                background-color: $base-color;
+                color: #fff;
+                text-transform: uppercase;
+                line-height: 22px;
+                letter-spacing: .56px;
+                font-size: .9rem;
+                width: 320px;
+                height: 50px;
+                border-radius: 5px;
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+/* Subsection (Desktop) */
+@media screen and (min-width: 1024px) {
+    .sub {
+        max-width: 100%;
+        text-align: center;
+        text-transform: uppercase;
+        background-image: url('../images/background2@2x.png');
+        color: #fff;
+        
+        .wrapper {
+            height: 50vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            h1 {
+                font-family: 'Raleway', sans-serif;
+                letter-spacing: 5.8px;
+                font-size: 3rem;
+                padding-bottom: 8px;
+            }
+
+            h2 {
+                font-family: 'Open Sans', sans-serif;
+                font-weight: 300;
+                line-height: 22px;
+                letter-spacing: 1.2px;
+                font-size: 1.3rem;
+            }
+        }
+        .submitBtn {
+            margin-top: 45px;
+
+            button {
+                background-color: $base-color;
+                color: #fff;
+                text-transform: uppercase;
+                line-height: 22px;
+                letter-spacing: .56px;
+                font-size: 1rem;
+                width: 370px;
+                height: 55px;
+                border-radius: 5px;
+                cursor: pointer;
+            }
+        }
     }
 }
 
